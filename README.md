@@ -2,7 +2,11 @@
 
 ## Instalar tailwind con npm
 
-- 1
-- 2
+```
+npm install
+```
+## Procesar CSS
 
-Soy un párrafo
+```
+npx tailwindcss build estilos.css -o versionfinal.css
+```
