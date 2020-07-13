@@ -1,8 +1,12 @@
 module.exports = {
   purge: [],
   theme: {
-    extend: {},
+    extend: {
+      container: {
+        center: true,
+      },
+    },
   },
   variants: {},
-  plugins: [],
-}
+  plugins: [require("@tailwindcss/custom-forms")],
+};
