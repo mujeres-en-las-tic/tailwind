@@ -1,0 +1,15 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+.btn {
+    @apply bg-blue-500 text-base font-bold p-5;
+}
+
+
+.menu-elemento {
+   @apply text-sm bg-red-600 border-dashed;
+}
